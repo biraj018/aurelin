@@ -1,0 +1,21 @@
+<!-- NAV -->
+<nav id="navbar">
+  <div class="nav-inner">
+    <a class="nav-logo" href="/">Auréline<span>.</span></a>
+    <button class="nav-hamburger" id="hamburger" aria-label="Open menu" aria-expanded="false">
+      <span></span><span></span><span></span>
+    </button>
+    <ul class="nav-links" id="nav-links">
+      <li><a href="/blog.html">Journal</a></li>
+      <li><a href="/category-skincare.html">Skincare</a></li>
+      <li><a href="/category-jewellery.html">Jewellery</a></li>
+      <li><a href="/category-beauty.html">Beauty</a></li>
+      <li><a href="/category-selfcare.html">Self-Care</a></li>
+      <li><a href="/about.html">About</a></li>
+    </ul>
+    <div class="nav-right">
+      <a href="/contact.html" class="nav-link-text">Contact</a>
+      <a href="#newsletter" class="btn-gold">Subscribe</a>
+    </div>
+  </div>
+</nav>

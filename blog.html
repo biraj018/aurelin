@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>The Journal — Auréline</title>
+  <meta name="description" content="Explore skincare routines, jewellery edits, beauty guides, and self-care rituals on the Auréline journal." />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;0,500;1,300;1,400&family=Jost:wght@300;400;500&display=swap" rel="stylesheet" />
+  <link rel="icon" href="/images/favicon.svg" type="image/svg+xml" />
+  <link rel="stylesheet" href="/css/style.css" />
+</head>
+<body>
+
+  <nav id="navbar">
+    <div class="nav-inner">
+      <a class="nav-logo" href="/">Auréline<span>.</span></a>
+      <button class="nav-hamburger" id="hamburger" aria-label="Open menu" aria-expanded="false">
+        <span></span><span></span><span></span>
+      </button>
+      <ul class="nav-links" id="nav-links">
+        <li><a href="/blog.html">Journal</a></li>
+        <li><a href="/category-skincare.html">Skincare</a></li>
+        <li><a href="/category-jewellery.html">Jewellery</a></li>
+        <li><a href="/category-beauty.html">Beauty</a></li>
+        <li><a href="/category-selfcare.html">Self-Care</a></li>
+        <li><a href="/about.html">About</a></li>
+      </ul>
+      <div class="nav-right">
+        <a href="/contact.html" class="nav-link-text">Contact</a>
+        <a href="#newsletter" class="btn-gold">Subscribe</a>
+      </div>
+    </div>
+  </nav>
+
+  <div class="blog-hero">
+    <p class="eyebrow">The Auréline Journal</p>
+    <h1>Beauty. Ritual. Art.</h1>
+    <p style="color:var(--text-mid);margin-top:8px;">Thoughtfully curated guides for the modern luxury woman.</p>
+    <div class="blog-filter">
+      <button class="filter-btn active" data-cat="all">All</button>
+      <button class="filter-btn" data-cat="skincare">Skincare</button>
+      <button class="filter-btn" data-cat="jewellery">Jewellery</button>
+      <button class="filter-btn" data-cat="beauty">Beauty Routines</button>
+      <button class="filter-btn" data-cat="selfcare">Self-Care</button>
+      <button class="filter-btn" data-cat="gifts">Gift Guides</button>
+    </div>
+  </div>
+
+  <div class="section-wrap">
+    <div class="blog-grid">
+
+      <a href="/post-korean-skincare.html" class="post-card" data-cat="skincare">
+        <div class="post-img"><span class="post-img-icon">🌿</span><span class="post-cat">Skincare</span></div>
+        <div class="post-body">
+          <p class="post-meta">March 10, 2024 · 8 min</p>
+          <h2 class="post-title">The 10-Step Korean Skincare Routine That Transformed My Skin</h2>
+          <span class="post-read">Read →</span>
+        </div>
+      </a>
+
+      <a href="/blog.html" class="post-card" data-cat="jewellery">
+        <div class="post-img"><span class="post-img-icon">💎</span><span class="post-cat">Jewellery</span></div>
+        <div class="post-body">
+          <p class="post-meta">March 8, 2024 · 6 min</p>
+          <h2 class="post-title">Gold Jewellery Under $50 That Looks Genuinely Luxurious</h2>
+          <span class="post-read">Read →</span>
+        </div>
+      </a>
+
+      <a href="/blog.html" class="post-card" data-cat="selfcare">
+        <div class="post-img"><span class="post-img-icon">🕯️</span><span class="post-cat">Self-Care</span></div>
+        <div class="post-body">
+          <p class="post-meta">March 5, 2024 · 5 min</p>
+          <h2 class="post-title">Sunday Reset: The Ultimate Luxury Self-Care Evening Ritual</h2>
+          <span class="post-read">Read →</span>
+        </div>
+      </a>
+
+      <a href="/blog.html" class="post-card" data-cat="beauty">
+        <div class="post-img"><span class="post-img-icon">✨</span><span class="post-cat">Beauty</span></div>
+        <div class="post-body">
+          <p class="post-meta">March 3, 2024 · 7 min</p>
+          <h2 class="post-title">The Glass-Skin Makeup Routine: Achieve That Dewy, Luminous Look</h2>
+          <span class="post-read">Read →</span>
+        </div>
+      </a>
+
+      <a href="/blog.html" class="post-card" data-cat="gifts">
+        <div class="post-img"><span class="post-img-icon">🎁</span><span class="post-cat">Gift Guides</span></div>
+        <div class="post-body">
+          <p class="post-meta">March 1, 2024 · 10 min</p>
+          <h2 class="post-title">The Luxury Beauty Gift Guide: 25 Picks She'll Actually Love</h2>
+          <span class="post-read">Read →</span>
+        </div>
+      </a>
+
+      <a href="/blog.html" class="post-card" data-cat="skincare">
+        <div class="post-img"><span class="post-img-icon">🌸</span><span class="post-cat">Skincare</span></div>
+        <div class="post-body">
+          <p class="post-meta">Feb 28, 2024 · 6 min</p>
+          <h2 class="post-title">Retinol vs Bakuchiol: Which Anti-Ageing Ingredient Is Right for You?</h2>
+          <span class="post-read">Read →</span>
+        </div>
+      </a>
+
+    </div>
+  </div>
+
+  <section class="newsletter" id="newsletter">
+    <p class="eyebrow">The Auréline Circle</p>
+    <h2>Beauty secrets, <em>delivered</em></h2>
+    <p>Join 12,000+ women receiving curated skincare rituals, jewellery edits, and exclusive picks every week.</p>
+    <form class="newsletter-form" onsubmit="handleSubscribe(event)">
+      <input type="email" placeholder="your@email.com" required aria-label="Email address" />
+      <button type="submit">Subscribe</button>
+    </form>
+    <p class="newsletter-fine">No spam. Unsubscribe any time.</p>
+  </section>
+
+  <footer>
+    <div class="footer-grid">
+      <div class="footer-brand">
+        <p class="footer-logo">Auréline<span>.</span></p>
+        <p>A luxury beauty journal — curated skincare, jewellery, and self-care rituals, personally vetted.</p>
+      </div>
+      <div class="footer-col"><h4>Journal</h4><ul>
+        <li><a href="/category-skincare.html">Skincare</a></li>
+        <li><a href="/category-jewellery.html">Jewellery</a></li>
+        <li><a href="/category-beauty.html">Beauty Routines</a></li>
+        <li><a href="/category-selfcare.html">Self-Care</a></li>
+        <li><a href="/category-gifts.html">Gift Guides</a></li>
+      </ul></div>
+      <div class="footer-col"><h4>Auréline</h4><ul>
+        <li><a href="/about.html">About</a></li>
+        <li><a href="/contact.html">Contact</a></li>
+        <li><a href="/privacy.html">Privacy Policy</a></li>
+        <li><a href="/disclosure.html">Affiliate Disclosure</a></li>
+        <li><a href="/terms.html">Terms of Service</a></li>
+      </ul></div>
+      <div class="footer-col"><h4>Follow</h4><ul>
+        <li><a href="https://pinterest.com" target="_blank" rel="noopener">Pinterest</a></li>
+        <li><a href="https://instagram.com" target="_blank" rel="noopener">Instagram</a></li>
+        <li><a href="#newsletter">Newsletter</a></li>
+      </ul></div>
+    </div>
+    <div class="footer-bottom">
+      <p>© 2024 Auréline. All rights reserved. <a href="/disclosure.html">Affiliate links disclosed.</a></p>
+      <div class="footer-social">
+        <a href="https://pinterest.com" target="_blank" rel="noopener">Pinterest</a>
+        <a href="https://instagram.com" target="_blank" rel="noopener">Instagram</a>
+        <a href="mailto:hello@aureline.com">Email</a>
+      </div>
+    </div>
+  </footer>
+
+  <script src="/js/main.js"></script>
+</body>
+</html>
